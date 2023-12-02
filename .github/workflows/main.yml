@@ -32,7 +32,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: devops-frontend
-          environment_name: Devops-frontend-env-env  
-          version_label: "the-simple-cicd-deployment-${{ steps.format-time.outputs.replaced }}"
+          environment_name: Devops-frontend-env
+          version_label: "devops-frontend-${{ steps.format-time.outputs.replaced }}"
           region: eu-north-1
           deployment_package: deploy.zip
