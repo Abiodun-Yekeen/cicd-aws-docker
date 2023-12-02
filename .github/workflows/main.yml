@@ -34,5 +34,5 @@ jobs:
           application_name: simple-cicd-deployment
           environment_name: Simple-cicd-deployment-env  
           version_label: "the-simple-cicd-deployment-${{ steps.format-time.outputs.replaced }}"
-          region: us-east-2
+          region: eu-north-1
           deployment_package: deploy.zip
